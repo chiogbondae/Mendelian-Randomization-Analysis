@@ -232,4 +232,5 @@ summary_table <- data.frame(
   Beta = c(tsh_ivw$b, mvmr_results@Estimate["BxTSH"], mvmr_results@Estimate["BxAF"]),
   P_Value = c(tsh_ivw$pval, mvmr_results@Pvalue[1], mvmr_results@Pvalue[2])
 )
+
 print(summary_table)

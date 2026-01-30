@@ -1,6 +1,5 @@
 # MENDELIAN RANDOMIZATION ANALYSIS
 
-# Load libraries
 library(TwoSampleMR)
 library(MendelianRandomization)
 library(dplyr)
@@ -10,8 +9,6 @@ library(tidyr)
 library(ggpubr)
 library(grid)
 
-# File paths
-#set your base_path first
 tsh_gwas_path <- paste0(base_path, "TSH_GWAS-SNPs.txt")
 af_tsh_exposure_path <- paste0(base_path, "AF_TSH-exposure.txt")
 tsh_stroke_outcome_path <- paste0(base_path, "TSH_Stroke-SNPs.txt")
@@ -234,3 +231,4 @@ summary_table <- data.frame(
 )
 
 print(summary_table)
+

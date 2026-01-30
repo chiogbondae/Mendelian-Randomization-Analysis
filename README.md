@@ -1,3 +1,7 @@
+[TSH_Stroke-SNPs.txt](https://github.com/user-attachments/files/24974732/TSH_Stroke-SNPs.txt)
+[TSH_GWAS-SNPs.txt](https://github.com/user-attachments/files/24974729/TSH_GWAS-SNPs.txt)
+[AF_TSH-exposure.txt](https://github.com/user-attachments/files/24974703/AF_TSH-exposure.txt)
+[AF_TSH-stroke_outcome.txt](https://github.com/user-attachments/files/24974693/AF_TSH-stroke_outcome.txt)
 # Mendelian-Randomization-Analysis
 This repository contains the code and results for a genetic study investigating whether Thyroid Stimulating Hormone (TSH) causal effects on stroke are mediated by Atrial Fibrillation (AF). The data and result plots are attached.
 source GWAS TSH: Teumer et al. [PMID: 30367059] (TSH: n=54,288)
